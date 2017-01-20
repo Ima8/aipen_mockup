@@ -4,6 +4,11 @@ li .hilight{
   background-color: red;
 
 }
+
+.header-sub-content{
+  font-family: 'Helvetica', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 18px;
+}
 .panel.price,
   .panel.price>.panel-heading{
     border-radius:0px;
@@ -238,7 +243,7 @@ li .hilight{
 .loginmodal {
   text-align: center;
   font-size: 14px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 700;
   height: 36px;
   padding: 0 8px;
