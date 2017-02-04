@@ -35,7 +35,6 @@ a:focus {
   color: #fcbd20;
 }
 hr {
-  max-width: 100px;
   margin: 25px auto 0;
   border-width: 1px;
   border-color: rgba(34, 34, 34, 0.1);
@@ -109,7 +108,7 @@ p {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: transparent;
+    border-color: rgba(8, 34, 34, 0.24);
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -189,7 +188,7 @@ header .device-container .screen img {
 }
 @media (min-width: 768px) {
   header {
-    min-height: 100%;
+    height: 500px;
   }
   header .header-content {
     text-align: left;
@@ -200,7 +199,7 @@ header .device-container .screen img {
     max-width: none;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
   }
   header .header-content .header-content-inner h1 {
@@ -209,7 +208,7 @@ header .device-container .screen img {
   header .device-container {
     max-width: none;
     max-height: 100%;
-    margin: 150px auto 0;
+    margin: 80px auto 0;
   }
 }
 @media (min-width: 992px) {
@@ -224,8 +223,10 @@ section h2 {
   font-size: 50px;
 }
 section.download {
-  padding: 150px 0;
+  padding: 50px 0;
   position: relative;
+  height: 220px;
+  color : #fff;
 }
 section.download h2 {
   margin-top: 0;
@@ -330,6 +331,7 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+  background-color: #f8f8f8;
 }
 section.contact h2 {
   margin-top: 0;
@@ -392,7 +394,8 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #B71C1C;
+  background: #c8321e;
+  color : #333;
 }
 .text-primary {
   color: #fdcc52;
@@ -402,7 +405,7 @@ footer ul li a.active {
   padding-left: 0;
 }
 .btn-outline {
-  color: black;
+  color: #c8321e;
   border-color: white;
   border: 1px solid;
 }
@@ -411,12 +414,11 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: #fff;
-  background-color: #B71C1C
-;
+  background-color: #c8321e;
   border-color: black;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }

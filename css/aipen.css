@@ -6,7 +6,7 @@ li .hilight{
 }
 
 .header-sub-content{
-  font-family: 'Helvetica', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 18px;
 }
 .panel.price,
@@ -15,6 +15,7 @@ li .hilight{
      -moz-transition: all .3s ease;
     -o-transition:  all .3s ease;
     -webkit-transition:  all .3s ease;
+    border-radius: 5px;
   }
   .panel.price:hover{
     box-shadow: 0px 0px 30px rgba(0,0,0, .2);
@@ -25,8 +26,8 @@ li .hilight{
 
 
   .panel.price>.panel-heading{
-    box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;
-    text-shadow:0px 3px 0px rgba(50,50,50, .6);
+    /*box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;*/
+    /*text-shadow:0px 3px 0px rgba(50,50,50, .6);*/
   }
 
   .price .list-group-item{
@@ -45,9 +46,8 @@ li .hilight{
   .price .panel-footer {
     color: #fff;
     border-bottom:0px;
-    background-color:  rgba(0,0,0, .1);
-    box-shadow: 0px 3px 0px rgba(0,0,0, .3);
-  }
+    background-color: white;
+    }
 
 
   .panel.price .btn{
@@ -116,9 +116,10 @@ li .hilight{
 
   .price.panel-red>.panel-heading {
     color: #fff;
-    background-color: #D04E50;
+    background-color: #c8321e;
     border-color: #FF6062;
     border-bottom: 1px solid #FF6062;
+    border-radius: 5px 5px 0px 0px;
   }
 
 
@@ -139,6 +140,7 @@ li .hilight{
     background-color: rgba(50,50,50, .01);
     font-weight:600;
     text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+    border: 1px solid #fff;
   }
 
   /* grey price */
